@@ -1,110 +1,71 @@
-<!--START_SECTION:header-->
-<div align="center">
-  <p align="center">
-    <img 
-      alt="DIO Education" 
-      src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/logo.webp" 
-      width="100px" 
-    />
-    <h1>Título do Curso ou Projeto</h1>
-  </p>
-</div>
-<!--END_SECTION:header-->
-
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=DIO&message=Education&color=E94D5F&labelColor=202024" alt="DIO Project" />
-  <a href="NIVEL"><img  src="https://img.shields.io/static/v1?label=Nivel&message=Basico&color=E94D5F&labelColor=202024" alt="Nivel"></a>
-
-</p>
-
-<!--  -->
-<table align="center">
-<thead>
-  <tr>
-    <td>
-        <p align="center">Expert</p>
-        <a href="https://github.com/felipeAguiarCode">
-        <img src="https://avatars0.githubusercontent.com/u/37452836?v=3&s=115" alt="@felipeAguiarCode"><br>
-      </a>
-    </td>
-    <td colspan="3">
-    <p>🎉 10y+ em sistemas comerciais com .NET C# e NODE.JS.
-      <br/>
-     🌟 Desenvolvedor fullstack - Coordenador de educação na DIO
-      <br/>
-    👨‍💻 Foco em front-ends SPA com React, Angular e Vue.js
-    </p>
-      <a 
-      href="https://www.linkedin.com/in/felipe-me/" 
-      align="center">
-           <img 
-            align="center" 
-            alt="Material de Apoio" 
-            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-            >
-        </a>
-        <a href="https://www.instagram.com/felipeaguiar.exe/" target="_blank">
-            <img 
-              align="center" 
-              alt="Instagram" 
-              src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-            >
-        </a>
-    </td>
-  </tr>
-</thead>
-</table>
-<!--  -->
-
-<br/>
-<br/>
+# ONE - Entrevistador e Planejador de Carreira TECH
 
 ## 💻 Sobre o Projeto
 
-Vamos construir uma página spa, responsiva, para usar em diversos tipos de micro, pequena e média empresas. Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoimentos, Contato e Footer que faz xxx e yyy
+Este projeto foi desenvolvido como parte do **Desafio de Projeto** do bootcamp **CAIXA — Inteligência Artificial na Prática**, com o tema **“IA Mentor de Carreira: Descubra seu futuro em tech”**.  
 
-## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
+### Proposta Original  
+O desafio propunha a criação de dois agentes de IA distintos para auxiliar na orientação profissional na área de tecnologia:
 
-Antes de ingressar neste conteúdo, é necessário possuir conhecimento prévio nas seguintes áreas:
+- **Agente 1 — Entrevistador:** responsável por fazer perguntas para identificar o perfil do usuário no setor de tecnologia.  
+- **Agente 2 — Planejador de Carreira Tech:** recebia as respostas do Agente 1, analisava o perfil e sugeria três opções de carreira em tech. Após a escolha do usuário, esse agente gerava um roadmap de 90 dias para orientar os próximos passos.
 
-- [habilidades ou conhecimentos prévios necessários] | [Básico, Intermediário, Avançado ou Especialista]
+### Dinâmica Inicial  
+1. O Agente 1 realizava sete perguntas para entender o perfil do usuário.  
+2. As respostas eram copiadas manualmente do chat do Agente 1 e coladas no chat do Agente 2.  
+3. O Agente 2 analisava essas respostas e apresentava três sugestões de carreira.  
+4. Após o usuário escolher uma das opções, o Agente 2 criava um plano de ação para os próximos 90 dias.
 
-- _Exemplo_:
+### Objetivo do Projeto  
+Como o desafio não definia uma abordagem única para a execução, o objetivo principal deste trabalho foi **unificar os dois agentes em um único agente de IA**. Isso eliminou a necessidade de usar dois chats separados e de copiar manualmente as informações entre eles.  
 
-  - Java | Básico
-  - Gerenciamento de pacotes | Básico
-  -
+Assim, todo o processo — da entrevista inicial até o planejamento da carreira — acontece de forma integrada, fluida e automatizada em um único chat, proporcionando uma experiência mais simples e eficiente para o usuário.
 
-- [Outros pré-requisitos, se aplicável]
+---
 
-- _Exemplo_:
-  - Lógica de programação
-  - Javascript
+## 📚 Ferramentas Utilizadas
 
-## 🛠️ Habilidades e Sub-habilidades que vamos aprender neste conteúdo
+- **GitHub:** para versionamento e controle do código.  
+- **ChatGPT:** para desenvolvimento e testes dos prompts de IA.  
+- **Manus:** ferramenta para criação e ajuste de prompts.  
+- **Copilot:** assistente de programação para acelerar o desenvolvimento.  
+- **Plataforma Adapta:** plataforma de inteligência artificial que orquestra múltiplos modelos e tecnologias em segundo plano.
 
-- [Lista das habilidades principais a serem desenvolvidas]
+### Detalhes da Plataforma Adapta  
+A interação com o usuário acontece diretamente com a **ONE**, a IA principal que gerencia toda a experiência. Nos bastidores, a ONE funciona como uma “maestrina”, conectando-se a diversos motores e ferramentas de IA, como:  
+- Claude  
+- Gemini  
+- DeepSeek  
+- Grok  
+- Perplexity  
+- Ferramentas especializadas em imagem, como Nano Banana e GPT Image  
 
-  - [Subhabilidades relacionadas, se aplicável]
+O diferencial da ONE está na **automação inteligente**: ao receber uma solicitação, ela identifica o motor mais adequado para a tarefa, processa a requisição e retorna uma resposta final validada e integrada, garantindo uma experiência fluida e acesso ao melhor de cada tecnologia por meio de uma única interface.
 
-- _Exemplo_:
-  - Java
-    - Api Rest
+---
 
-## 🎯 Objetivos e Resultados Esperados
+## 🛠️ Desenvolvimento
 
-Após a conclusão do curso/projeto, os estudantes estarão aptos a:
+Para criar um agente único, os dois prompts originais dos agentes 1 e 2 foram combinados e ajustados para funcionar em conjunto. Isso exigiu:  
+- Revisão e integração dos fluxos de conversa.  
+- Ajustes para garantir que a entrevista e o planejamento de carreira fluíssem naturalmente em um único chat.  
+- Testes constantes nas plataformas Adapta, ChatGPT, Manus e Copilot para avaliar a performance, qualidade das respostas e experiência do usuário.
 
-- [Descrição do que os estudantes serão capazes de fazer]
-- [Projetos ou soluções que os estudantes estarão aptos a construir]
+---
 
-<!--START_SECTION:footer-->
+## 🎯 Resultado
 
-<br />
-<br />
+O principal objetivo foi alcançado com sucesso:  
+- Um único agente de IA que atua como entrevistador e planejador de carreira, eliminando a necessidade de alternar entre dois chats.  
+- Processo automatizado onde o usuário responde às perguntas, recebe sugestões de carreira e obtém um roadmap personalizado, tudo em uma mesma conversa.  
 
-<p align="center">
-  <a href="https://www.dio.me/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/footer.png" alt="banner"/>
-  </a>
-</p>
+---
+
+## 🔗 Acesso ao Projeto
+
+O resultado final pode ser conferido no repositório ou plataforma a seguir:  
+[Link para o projeto] (adicione aqui o link correspondente)
+
+---
+
+Se desejar, posso ajudar a elaborar uma apresentação, documentação técnica ou qualquer outro material relacionado ao projeto.
